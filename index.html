@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PPV de Películas</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div id="app">
+
+      <!-- Your main view, should have "view-main" class -->
+      <section class="view view-main view-init" id="fondoindex">
+        
+        
+        <section class="panel panel-left panel-cover">
+        	<div class="panel-top">
+        		<img src="img/vglogo.jpg" class="img-fluid">
+        	</div>
+        	
+        	<div class="list list-menu media-list">
+        		<ul>
+        			<li>
+					  <a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">Inico</i>
+						</div>
+						<div class="item-inner">
+						  <h4 class="item-title">Inicio</h4>
+						</div>
+					  </a>
+					</li>
+       				<li>
+					  <a href="/valle/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">Categorias </i>
+						</div>
+						<div class="item-inner">
+						  <h4 class="item-title">Categorias</h4>
+						</div>
+					  </a>
+					</li>
+       				
+       				<li>
+					  <a href="#" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">Mis </i>
+						</div>
+						<div class="item-inner">
+						  <h4 class="item-title">Mis Peliculas</h4>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">Promociones</i>
+						</div>
+						<div class="item-inner">
+						  <h4 class="item-title">Promociones</h4>
+						</div>
+					  </a>
+					</li>
+					
+					<li>
+					  <a href="/profile/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">account_circle</i>
+						</div>
+						<div class="item-inner">
+						  <h4 class="item-title">Profile</h4>
+						</div>
+					  </a>
+					</li>
+					
+       				<li>
+					  <a href="#" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">exit_to_app</i>
+						</div>
+						<div class="item-inner">
+						  <h4 class="item-title">Salir</h4>
+						</div>
+					  </a>
+					</li>
+        		</ul>
+        	</div>
+        </section>
+        
+        
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+             	<div class="left"></div>
+              	<div class="title"><img src="img/vglogo.jpg" class="img-fluid" width="50px"></div>
+              	<div class="right">
+              		<a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
+              	</div>
+            </div>
+          </nav>
+
+          
+
+          <!-- Scrollable page content -->
+          <section class="page-content">
+           
+           	<div class="block intro">
+           		<h2>Bienvenido  de Nuevo , <span>Victor Garcia</span></h2>
+            	<h3>De que tienes ganas de ver Hoy??</h3>
+				<p id="mostpop">Te Mostraos las peliculas mas vista este 2022:</p>
+           	</div>
+           	
+           	<div class="block">
+           		<article class="card card-intro card_margins">
+					<a href="/roatan/" class="item-link item-content">
+           			<div class="card-content card-content-padding">
+           				<div class="row">
+							<article class="col-50">
+           						<img src="img/Batman-449856406-large.jpg" class="img-fluid card-pic">
+           					</article>
+							<article class="col-50">
+           			
+           					</article>
+							
+           					<article class="col-100">
+           						<h5 id="cuatropuntoseisletra1"><span class="material-icons" id="cuatropuntoseis1" width="150px">star</span>2022 ‧ Acción/Aventura ‧ 2h 56m (687 views)</h5>
+           						<h3 id="habitacionsencilla1">Batman </h3>
+								<div class="row">
+									<article class="col-90">
+           						<span class="precio">Lps200</span>
+										</article>
+										<article class="col-10">
+           						<span class="material-icons fav_boton ">favorite_border</span>
+										</article>
+									</div>
+           					</article>
+           					
+           				</div>
+           			</div>
+						</a>
+           		</article><br>
+				<article class="card card-intro">
+					<a href="/valle/" class="">
+           			<div class="card-content card-content-padding">
+						
+           				<div class="row">
+							<article class="col-50">
+           						<img src="img/Doctor Strange.jpg" class="img-fluid card-pic">
+           					</article>
+							<article class="col-50">
+           						
+           					</article>
+							
+           					<article class="col-100">
+           						<h5 id="cuatropuntoseisletra2"><span class="material-icons" id="cuatropuntoseis2">star</span > Acción/Aventura ‧ 2h 56m (854 views)</h5>
+           						<h3 id="habitacionsencilla2">Doctor Strange in the Multiverse of Madness.</h3>
+								<div class="row">
+									<article class="col-90">
+           						<span class="precio"><strike>Lps 300</strike> Lps. 265</span>
+										</article>
+										<article class="col-10">
+           						<span class="material-icons fav_boton ">favorite_border</span>
+										</article>
+									</div>
+           					</article>
+           					
+           				</div>
+           			</div>
+					</a>
+           		</article><br>
+				<article class="card card-intro">
+           			<div class="card-content card-content-padding">
+           				<div class="row">
+							<article class="col-50">
+           						<img src="img/Uncharted-.jpg" class="img-fluid card-pic">
+           					</article>
+							<article class="col-50">
+           						
+           					</article>
+							
+           					<article class="col-100">
+           						<h5 id="cuatropuntoseisletra3"><span class="material-icons" id="cuatropuntoseis3">star</span> Acción  ‧ 3h 2min (237 views)</h5>
+           						<h3 id="habitacionsencilla3">Uncharted </h3>
+								<div class="row">
+									<article class="col-90">
+           						<span class="precio">Lps. 250</span>
+										</article>
+										<article class="col-10">
+           						<span class="material-icons fav_boton ">favorite_border</span>
+										</article>
+									</div>
+           					</article>
+           					
+           				</div>
+           			</div>
+           		</article><br>
+				<article class="card card-intro">
+           			<div class="card-content card-content-padding">
+           				<div class="row">
+							<article class="col-50">
+           						<img src="img/JurassicWorldDominion_Poster.jpeg" class="img-fluid card-pic">
+           					</article>
+							<article class="col-50">
+           						
+           					</article>
+							
+           					<article class="col-100">
+           						<h5 id="cuatropuntoseisletra4"><span class="material-icons" id="cuatropuntoseis4">star</span>  Aventura/accion (357 views)</h5>
+           						<h3 id="habitacionsencilla4">Jurassic World Dominion</h3>
+								<div class="row">
+									<article class="col-90">
+           						<span class="precio">Lps. 280</span>
+								  </article>
+										<article class="col-10">
+           						<span class="material-icons fav_boton ">favorite_border</span>
+										</article>
+							  </div>
+           					</article>
+           					
+           				</div>
+           			</div>
+           		</article><br><br><br>
+				
+           	</div>
+            
+            
+           
+            
+          
+          </section><!--content-->
+          
+        </div><!--page-->
+        
+        <div class="toolbar tabbar tabbar-labels toolbar-bottom">
+			<div class="toolbar-inner">
+				<a class="link"><i class="material-icons">home</i> <span class="tabbar-label">Home</span></a>
+			  <a class="link"><i class="material-icons fav_boton ">favorite_border</i> <span class="tabbar-label">Favorites</span></a>
+			  <a class="link"><i class="material-icons">account_circle</i> <span class="tabbar-label">Profile</span></a>
+			</div>
+		</div>
+        
+      </section><!--view-->
+      
+    </div><!--app-->
+	
+	
+
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/my-app.js"></script>
+
+</body>
+</html>

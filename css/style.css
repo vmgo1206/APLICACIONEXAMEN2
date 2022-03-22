@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700&display=swap');
+:root{
+    --f7-theme-color:#333333;
+    --f7-navbar-bg-color: #333333 ; /*navbar*/
+    --f7-navbar-text-color:#fff;
+    --f7-bars-bg-color:#fff;/*toolbar*/
+	--color-verde: #EDEAD0;
+	--color-gris: #8f8f8f;
+	--color-negro: #000;
+	--fondo-gris:#E8E8E8;
+	--fondo-menu:#333333;
+}
+body{
+	font-family: 'Lexend', sans-serif;
+	color: #E8E8E8;
+	font-weight: bold;
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-negro);
+	margin-bottom: 5px;
+	margin-top: 2px;
+}
+.navbar a{
+	color: #E8E8E8;
+}
+
+.img-fluid{
+	max-width: 100%;
+}
+
+.intro h2{
+	font-size: 20px;
+	font-weight: 300;
+}
+.intro h2 span{
+	font-weight: 500;
+}
+.intro h3{
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.card-intro{
+	background-color: #7E1010     ;
+	color: #fff;
+	box-shadow: none;
+	border-radius: 20px;
+}
+.card-intro h5{
+	color: #fff;
+}
+.card-intro span.material-icons{
+	font-size: 14px;
+	margin-right: 5px;
+}
+.card-intro h4{
+	color: #fff;
+	font-weight: 300;
+}
+.card-intro h3{
+	color: #fff;
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+ .precio{
+	background-color: #A29E9E;
+	padding: 15px;
+	border-radius: 5px;
+	color: white;
+	
+}
+.card-intro img{
+	width: 150px;
+}
+
+
+.block-title{
+	font-size: 22px;
+	overflow: initial;
+	color: var(--color-verde);
+	font-weight: 500;
+}
+
+.card-popular .card-content{
+	background-color: var(--fondo-gris);
+	text-align: center;
+}
+.card-popular img{
+	width: 120px;
+}
+.card-popular h3{
+	font-size: 20px;
+	font-weight: 400;
+}
+.card-popular h4{
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.card-popular .card-footer{
+	background-color: var(--color-verde);
+	color: #fff;
+}
+.card-popular .card-footer a{
+	color: #fff;
+}
+
+.toolbar-bottom a,
+.toolbar-bottom i{
+	color: var(--color-verde);	
+}
+
+.panel-top{
+	background-color: var(--fondo-gris);
+	padding: 17px;
+	color: #fff;
+	text-align: center;
+}
+
+.panel-left{
+	background-color: var(--fondo-menu);
+}
+.list-menu{
+	margin-top: 0;
+}
+.list-menu ul{
+	background-color: var(--fondo-menu);
+}
+.list-menu i{
+	color: var(--color-verde);
+}
+
+
+
+.list-productos .item-media img{
+	width: 80px;
+}
+.list-productos .item-title{
+	color: var(--color-negro);
+	font-size: 20px;
+	font-weight: 400;
+}
+.list-productos .item-subtitle{
+	color: var(--color-negro);
+	font-size: 13px;
+	font-weight: 300;
+}
+.list-productos .item-after{
+	color: var(--color-negro);
+	font-size: 16px;
+	font-weight: 400;
+}
+.list-productos li{
+	box-shadow: 0px 0px 10px 5px #f2f2f2;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.card-pic{
+	border-radius:15px;
+}
+
+
+.fav_boton{
+	color:black;
+	font-weight:bolder;
+	
+}
+
+.cornertop_icon{
+	margin:5%;
+	color:var(--color-verde)!important;
+}
+.precio2{
+	background-color: black;
+	padding: 10px;
+	border-radius: 5px;
+	color:white;
+	font-size:25px;
+	margin:5%;
+}
+.amenities{
+	text-align:center!important;
+}
+.avatar_foto{
+	
+	border-radius:300px;
+}
+.foto_perfil{
+	padding:35% 35% 15% 35%;
+}
+
+.info_perfil{
+	text-align:center;
+	margin-bottom: 35%;
+}
+.button-fill{
+	background-color:black!important;
+}
+.prfl{
+	color:black!important;
+}
+
+#mostpop {
+	color: #C18780;
+}
+
+#habitacionsencilla1 {
+	color: #FFF;
+}
+
+#habitacionsencilla2 {
+	color: #FFFFFF;
+}
+
+#habitacionsencilla3 {
+	color: #FFFFFF;
+}
+
+#habitacionsencilla4 {
+	color: #fff;
+}
+
+#cuatropuntoseisletra1 {
+	color: #FFF; 
+}
+
+#cuatropuntoseisletra2 {
+	color: #fff; 
+}
+
+#cuatropuntoseisletra3 {
+	color: #fff; 
+}
+
+#cuatropuntoseisletra4 {
+	color: #fff; 
+}
+
+#cuatropuntoseis1 {
+	color: #FFF; 
+}
+
+#cuatropuntoseis2 {
+	color: #fff; 
+}
+
+#cuatropuntoseis3 {
+	color: #fff; 
+}
+
+#cuatropuntoseis4 {
+	color: #fff; 
+}
+
+.col-100 {
+	padding-bottom: 15px;
+}
+
+#subtituloven {
+	color: #40695C;
+}
+
+#textorosado {
+	color: #C18780;
+}
+
+#roatan {
+	background-color: #FFF0EE;
+}
+
+#iconosblancos {
+	color: #40695C;
+}
+
+#fondoindex {
+	background-color: var(--fondo-gris)!important;
+}
+
+#pietrofondo {
+	background-color: #FFFC99;
+}
